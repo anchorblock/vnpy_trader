@@ -1,3 +1,5 @@
+import vnpy_crypto
+vnpy_crypto.init()
 from vnpy_ctastrategy.base import EVENT_CTA_LOG
 from vnpy.trader.engine import MainEngine, EventEngine
 from vnpy.trader.ui import MainWindow, create_qapp
@@ -15,6 +17,7 @@ from vnpy.trader.setting import SETTINGS
 from vnpy_ctastrategy.strategies.my_strategy import MyStrategy
 from vnpy_ctastrategy.strategies.atr_rsi_strategy import AtrRsiStrategy
 from vnpy_ctastrategy.strategies.double_ma_strategy import DoubleMaStrategy
+from vnpy_bitfinex import BitfinexGateway
 
 from logging import INFO
 from time import sleep
@@ -43,47 +46,29 @@ def main():
     qpp = create_qapp()
     event_engine = EventEngine()
     main_engine = MainEngine(event_engine)
-    gw = IbGateway(event_engine=event_engine, gateway_name="IB")
-    setting = {"TWS地址": "127.0.0.1", "TWS端口": 7497,
-               "客户号": 1, "交易账户": "DU7251579"}
-    main_engine.add_gateway(IbGateway)
+    api_key = '5hqbujaybQNFGU6cMlFVxmkplCAm0ugE7t4JER8YWrM'
+    api_secret = 'z048543eDUcODQKN8QcrgTQ7mj3vHbMsjqQREqo61jO'
+    setting = {
+        "key": api_key,
+        "secret": api_secret,
+        "代理地址": "",
+        "代理端口": 0,
+        "margin": "False"
+    }
+    main_engine.add_gateway(BitfinexGateway)
     cta_engine = main_engine.add_app(CtaStrategyApp)
     main_engine.write_log("The main engine was created successfully")
     log_engine = main_engine.get_engine("log")
     event_engine.register(EVENT_CTA_LOG, log_engine.process_log_event)
     main_engine.write_log("Register log event listener")
-    main_engine.connect(gateway_name="IB", setting=setting)
+    main_engine.connect(gateway_name="Bitfinex", setting=setting)
     main_engine.write_log("Connect to the CTP interface")
     sleep(10)
 
     main_engine.add_app(ChartWizardApp)
-
-    # Strategy Config
-    strat_setting1 = {
-        "class_name": "MyStrategy1",
-        "vt_symbol": "XAUUSD-USD-CMDTY.SMART",
-        "setting": {
-            "fast_window": 10,
-            "slow_window": 20
-        }
-    }
-
-    strat_setting2 = {
-        "class_name": "MyStrategy2",
-        "vt_symbol": "XAUUSD-USD-CMDTY.SMART",
-        "setting": {
-            "fast_window": 5,
-            "slow_window": 10
-        }
-    }
-
-    strat_config("MyStrategy1", strat_setting1)
-
     # Strategy Stuffs
     cta_engine.init_engine()
-    cta_engine.init_strategy("MyStrategy1")
-    sleep(10)
-    cta_engine.start_strategy("MyStrategy1")
+    cta_engine.init_all_strategies()
     main_engine.write_log("CTA strategy activated")
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()

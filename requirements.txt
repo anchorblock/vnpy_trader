@@ -38,4 +38,7 @@ vnpy_udata
 vnpy_tap
 vnpy_da
 vnpy_sqlite
+vnpy_crypto
+vnpy_bitfinex
+
 backports.zoneinfo; python_version < '3.9'
