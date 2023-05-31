@@ -46,29 +46,19 @@ def main():
     qpp = create_qapp()
     event_engine = EventEngine()
     main_engine = MainEngine(event_engine)
-    api_key = '5hqbujaybQNFGU6cMlFVxmkplCAm0ugE7t4JER8YWrM'
-    api_secret = 'z048543eDUcODQKN8QcrgTQ7mj3vHbMsjqQREqo61jO'
-    setting = {
-        "key": api_key,
-        "secret": api_secret,
-        "代理地址": "",
-        "代理端口": 0,
-        "margin": "False"
-    }
+
     main_engine.add_gateway(BitfinexGateway)
     cta_engine = main_engine.add_app(CtaStrategyApp)
     main_engine.write_log("The main engine was created successfully")
     log_engine = main_engine.get_engine("log")
     event_engine.register(EVENT_CTA_LOG, log_engine.process_log_event)
     main_engine.write_log("Register log event listener")
-    main_engine.connect(gateway_name="Bitfinex", setting=setting)
-    main_engine.write_log("Connect to the CTP interface")
-    sleep(10)
+    # main_engine.write_log("Connect to the CTP interface")
 
     main_engine.add_app(ChartWizardApp)
     # Strategy Stuffs
     cta_engine.init_engine()
-    cta_engine.init_all_strategies()
+    # cta_engine.init_all_strategies()
     main_engine.write_log("CTA strategy activated")
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()
