@@ -11,6 +11,7 @@ from vnpy_ctastrategy import (
 
 from vnpy.trader.constant import Exchange, Interval
 
+
 class MyStrategy(CtaTemplate):
     author = 'ornob'
     fast_window = 3
@@ -20,7 +21,7 @@ class MyStrategy(CtaTemplate):
 
     def __init__(self, cta_engine, strategy_name, vt_symbol, setting):
         super().__init__(cta_engine, strategy_name, vt_symbol, setting)
-        self.bg = BarGenerator(self.on_bar, interval= Interval.TICK)
+        self.bg = BarGenerator(self.on_bar, interval=Interval.TICK)
         self.am = ArrayManager()
 
     def on_init(self):
@@ -53,16 +54,20 @@ class MyStrategy(CtaTemplate):
         if self.pos == 0:
             if fast_ma[-1] > slow_ma[-1]:
                 self.buy(bar.close_price, 1)
+                print(f'Placing buy order at {bar.close_price}')
             elif fast_ma[-1] < slow_ma[-1]:
                 self.short(bar.close_price, 1)
+                print(f'Placing short order at {bar.close_price}')
 
         elif self.pos > 0:
             if fast_ma[-1] < slow_ma[-1]:
                 self.sell(bar.close_price, 1)
+                print(f'Placing sell order at {bar.close_price}')
 
         elif self.pos < 0:
             if fast_ma[-1] > slow_ma[-1]:
                 self.cover(bar.close_price, 1)
+                print(f'Placing cover order at {bar.close_price}')
 
         self.put_event()
 

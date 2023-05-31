@@ -37,4 +37,5 @@ vnpy_rqdata
 vnpy_udata
 vnpy_tap
 vnpy_da
+vnpy_sqlite
 backports.zoneinfo; python_version < '3.9'
