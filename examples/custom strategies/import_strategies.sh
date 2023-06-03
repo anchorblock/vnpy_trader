@@ -6,7 +6,7 @@
 
 # Set the destination path to the strategies folder of vnpy_ctastrategy module.
 # Change the path below to your own vnpy_ctastrategy installation path.
-DEST_PATH=/home/shell007/anaconda3/envs/ve/lib/python3.9/site-packages/vnpy_ctastrategy/strategies
+DEST_PATH=/home/shell007/anaconda3/envs/vnpy/lib/python3.10/site-packages/vnpy_ctastrategy/strategies
 
 # Copy your custom strategy file to the destination folder.
-cp my_strategy.py $DEST_PATH
+cp high_frequency_strategy.py $DEST_PATH

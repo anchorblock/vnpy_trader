@@ -80,10 +80,9 @@ def main():
     strat_config("MyStrategy1", strat_setting1)
 
     # Strategy Stuffs
-    cta_engine.init_engine()
-    cta_engine.init_strategy("MyStrategy1")
+
     sleep(10)
-    cta_engine.start_strategy("MyStrategy1")
+
     main_engine.write_log("CTA strategy activated")
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()
