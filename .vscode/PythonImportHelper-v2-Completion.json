@@ -1,5 +1,1279 @@
 [
     {
+        "label": "math,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math.",
+        "description": "math.",
+        "detail": "math.",
+        "documentation": {}
+    },
+    {
+        "label": "dill",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dill",
+        "description": "dill",
+        "detail": "dill",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "StringIO",
+        "description": "StringIO",
+        "detail": "StringIO",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "pands",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pands",
+        "description": "pands",
+        "detail": "pands",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Object",
+        "importPath": "my_lib",
+        "description": "my_lib",
+        "isExtraImport": true,
+        "detail": "my_lib",
+        "documentation": {}
+    },
+    {
+        "label": "Object3",
+        "importPath": "my_lib",
+        "description": "my_lib",
+        "isExtraImport": true,
+        "detail": "my_lib",
+        "documentation": {}
+    },
+    {
+        "label": "Object2",
+        "importPath": "my_lib",
+        "description": "my_lib",
+        "isExtraImport": true,
+        "detail": "my_lib",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "lib15",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib1",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib2",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib3",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib4",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib5",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib6",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib7",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib8",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib9",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib10",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib11",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib12",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib13",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib14",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "lib3",
+        "importPath": "third_party",
+        "description": "third_party",
+        "isExtraImport": true,
+        "detail": "third_party",
+        "documentation": {}
+    },
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "google.protobuf.descriptor_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "google.protobuf.descriptor_pb2",
+        "description": "google.protobuf.descriptor_pb2",
+        "detail": "google.protobuf.descriptor_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "Bar",
+        "importPath": "source",
+        "description": "source",
+        "isExtraImport": true,
+        "detail": "source",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -165,894 +1439,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TYPE_CHECKING",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Set",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TYPE_CHECKING",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TYPE_CHECKING",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Set",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TYPE_CHECKING",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -2082,15 +2468,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "qdarkstyle",
         "kind": 6,
         "isExtraImport": true,
@@ -2326,54 +2703,6 @@
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "field",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "field",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -2453,15 +2782,6 @@
         "importPath": "smtplib",
         "description": "smtplib",
         "detail": "smtplib",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -2679,15 +2999,6 @@
         "description": "deap",
         "isExtraImport": true,
         "detail": "deap",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
         "documentation": {}
     },
     {
@@ -3253,38 +3564,6 @@
         "documentation": {}
     },
     {
-        "label": "print_function",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
-        "label": "absolute_import",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
-        "label": "print_function",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
-        "label": "absolute_import",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
         "label": "RpcClient",
         "importPath": "vnpy.rpc",
         "description": "vnpy.rpc",
@@ -3498,6 +3777,699 @@
         "description": "setuptools",
         "isExtraImport": true,
         "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "Example3",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "peekOfCode": "class Example3(   object ):\n    def __init__    ( self, bar ):\n     #Comments should have a space after the hash.\n     if bar : bar+=1;  bar=bar* bar   ; return bar\n     else:\n                    some_string = \"\"\"\n                       Indentation in multiline strings should not be touched.\nOnly actual code should be reindented.\n\"\"\"\n                    return (sys.path, some_string)",
+        "detail": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "example1",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "peekOfCode": "def example1():\n    ####This is a long comment. This should be wrapped to fit within 72 characters.\n    some_tuple=(   1,2, 3,'a'  );\n    some_variable={'long':'Long code lines should be wrapped within 79 characters.',\n    'other':[math.pi, 100,200,300,9876543210,'This is a long string that goes on'],\n    'more':{'inner':'This whole logical line should be wrapped.',some_tuple:[1,\n    20,300,40000,500000000,60000000000000000]}}\n    return (some_tuple, some_variable)\ndef example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));\nclass Example3(   object ):",
+        "detail": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "example2",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "peekOfCode": "def example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));\nclass Example3(   object ):\n    def __init__    ( self, bar ):\n     #Comments should have a space after the hash.\n     if bar : bar+=1;  bar=bar* bar   ; return bar\n     else:\n                    some_string = \"\"\"\n                       Indentation in multiline strings should not be touched.\nOnly actual code should be reindented.\n\"\"\"",
+        "detail": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "pick",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
+        "peekOfCode": "pick = dill.dumps({\"a\": \"b\", \"c\": \"d\"})\nprint(dill.loads(pick))\nfile_obj = StringIO.StringIO()\ndill.dump([1, 2, \"3\"], file_obj)",
+        "detail": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "file_obj",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
+        "peekOfCode": "file_obj = StringIO.StringIO()\ndill.dump([1, 2, \"3\"], file_obj)",
+        "detail": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "NoDocstring",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"",
+        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "Globe",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"\ncachedir = \"/tmp\"",
+        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\nimport pands\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
+        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "cachedir",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "peekOfCode": "cachedir = \"/tmp\"",
+        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
+        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
+        "detail": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
+        "peekOfCode": "def main(argv):\n    results = []\n    for line in sys.stdin.readlines():\n        filename, line_number, message = line.split(\":\")\n        results.append(\n            to_result_sarif(\n                filename, int(line_number), 0, \"misspelled\", message.strip()\n            )\n        )\n    sarif = {",
+        "detail": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "NoDocstring",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"",
+        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "Globe",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"\ncachedir = \"/tmp\"",
+        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\nimport pands\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
+        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "cachedir",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "peekOfCode": "cachedir = \"/tmp\"",
+        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
+        "documentation": {}
+    },
+    {
+        "label": "NoDocstring",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
+        "detail": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "Globe",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
+        "detail": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\n# trunk-ignore(flake8/F401): this will trigger a warning to verify that the config is applied\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
+        "detail": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "aws_access_key_id",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
+        "description": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
+        "peekOfCode": "aws_access_key_id = \"AKIAIO5FODNN7EXAMPLE\"\naws_access_key_id = \"AKIAIO5FODNN7EXAMPLE\"",
+        "detail": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
+        "documentation": {}
+    },
+    {
+        "label": "aws_access_key_id",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
+        "description": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
+        "peekOfCode": "aws_access_key_id = \"AKIAIO5FODNN7EXAMPLE\"",
+        "detail": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
+        "documentation": {}
+    },
+    {
+        "label": "greeting",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "peekOfCode": "def greeting(name: str) -> str:\n    return \"Hello \" + name\ndef printer() -> None:\n    print(\"Hello\")\ngreeting(3)\ngreeting(b\"Alice\")\na = printer()\nc: str = 4\nfrom source import Bar\ndef bad_foo(bar: Bar) -> str:",
+        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "documentation": {}
+    },
+    {
+        "label": "printer",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "peekOfCode": "def printer() -> None:\n    print(\"Hello\")\ngreeting(3)\ngreeting(b\"Alice\")\na = printer()\nc: str = 4\nfrom source import Bar\ndef bad_foo(bar: Bar) -> str:\n  return bar.a + bar.b",
+        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "documentation": {}
+    },
+    {
+        "label": "bad_foo",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "peekOfCode": "def bad_foo(bar: Bar) -> str:\n  return bar.a + bar.b",
+        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "peekOfCode": "a = printer()\nc: str = 4\nfrom source import Bar\ndef bad_foo(bar: Bar) -> str:\n  return bar.a + bar.b",
+        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
+        "documentation": {}
+    },
+    {
+        "label": "Bar",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.source",
+        "description": ".trunk.plugins.trunk.linters.mypy.test_data.source",
+        "peekOfCode": "class Bar:\n  a: int\n  b: int\ndef bad_function() -> int:\n  print(\"returns nothing\")",
+        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.source",
+        "documentation": {}
+    },
+    {
+        "label": "bad_function",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.source",
+        "description": ".trunk.plugins.trunk.linters.mypy.test_data.source",
+        "peekOfCode": "def bad_function() -> int:\n  print(\"returns nothing\")",
+        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.source",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.nancy.parse",
+        "description": ".trunk.plugins.trunk.linters.nancy.parse",
+        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
+        "detail": ".trunk.plugins.trunk.linters.nancy.parse",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.nancy.parse",
+        "description": ".trunk.plugins.trunk.linters.nancy.parse",
+        "peekOfCode": "def main(argv):\n    results = []\n    nancy_output = json.load(sys.stdin)\n    for vuln_entry in nancy_output.get(\"vulnerable\", []):\n        for vuln in vuln_entry.get(\"Vulnerabilities\", []):\n            results.append(\n                to_result_sarif(\n                    \".\",\n                    0,\n                    0,",
+        "detail": ".trunk.plugins.trunk.linters.nancy.parse",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
+        "peekOfCode": "def to_result_sarif(path: str, vuln_id: str, description: str):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
+        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
+        "peekOfCode": "def main(argv):\n    osv_json = json.load(sys.stdin)\n    results = osv_json.get(\"results\", [])\n    if results is None:\n        results = []\n    for result in results:\n        if \"source\" not in result:\n            continue\n        path = result[\"source\"][\"path\"]\n        for package in result[\"packages\"]:",
+        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "shift",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "peekOfCode": "shift = 3\nchoice = raw_input(\"would you like to encode or decode?\")\nword = raw_input(\"Please enter text\")\nletters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
+        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "peekOfCode": "choice = raw_input(\"would you like to encode or decode?\")\nword = raw_input(\"Please enter text\")\nletters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
+        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "peekOfCode": "word = raw_input(\"Please enter text\")\nletters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
+        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "peekOfCode": "letters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
+        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "encoded",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "peekOfCode": "encoded = \"\"",
+        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "foo",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.severity",
+        "description": ".trunk.plugins.trunk.linters.pylint.test_data.severity",
+        "peekOfCode": "def foo():\n    return \"bar\"",
+        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.severity",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "class A:\n    def method1(self) -> None:\n        self.x = 1\n    def method2(self) -> None:\n        self.x = \"\" # Mypy treats this as an error because `x` is implicitly declared as `int`\na = A()\nreveal_type(a.x)\na.x = \"\" # Pyright allows this because the type of `x` is `int | str`\na.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "class A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z) # pyright shows error, mypy shows no error\nclass Color(Enum):\n    RED = 1",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "class Color(Enum):\n    RED = 1\n    BLUE = 2\ndef is_red(color: Color) -> bool:\n    if color == Color.RED:\n        return True\n    elif color == Color.BLUE:\n        return False\n    # mypy reports error: Missing return statement\ndef func(val: int | None):",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "wrong_type",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "def wrong_type(x: int) -> str:\n    return x  # error: Incompatible return value type (got \"int\", expected \"str\")\nclass A:\n    def method1(self) -> None:\n        self.x = 1\n    def method2(self) -> None:\n        self.x = \"\" # Mypy treats this as an error because `x` is implicitly declared as `int`\na = A()\nreveal_type(a.x)\na.x = \"\" # Pyright allows this because the type of `x` is `int | str`",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "is_red",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "def is_red(color: Color) -> bool:\n    if color == Color.RED:\n        return True\n    elif color == Color.BLUE:\n        return False\n    # mypy reports error: Missing return statement\ndef func(val: int | None):\n    if val is not None:\n        def inner_1() -> None:\n            reveal_type(val)",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "def func(val: int | None):\n    if val is not None:\n        def inner_1() -> None:\n            reveal_type(val)\n            print(val + 1)  # mypy produces a false positive error here\n        inner_2 = lambda: reveal_type(val) + 1\n        inner_1()\n        inner_2()",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "a = A()\nreveal_type(a.x)\na.x = \"\" # Pyright allows this because the type of `x` is `int | str`\na.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "a.x",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "a.x = \"\" # Pyright allows this because the type of `x` is `int | str`\na.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z) # pyright shows error, mypy shows no error",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "a.x",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "peekOfCode": "a.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z) # pyright shows error, mypy shows no error\nclass Color(Enum):",
+        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
+        "peekOfCode": "results = []\nfor result in json.load(sys.stdin)[\"generalDiagnostics\"]:\n    parse = {\n        \"level\": result[\"severity\"] if result[\"severity\"] != \"information\" else \"note\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": result[\"file\"],\n                    },",
+        "detail": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "sarif",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
+        "peekOfCode": "sarif = {\n    \"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\",\n    \"version\": \"2.1.0\",\n    \"runs\": [{\"results\": results}],\n}\nprint(json.dumps(sarif, indent=2))",
+        "detail": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.remark-lint.parse",
+        "description": ".trunk.plugins.trunk.linters.remark-lint.parse",
+        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
+        "detail": ".trunk.plugins.trunk.linters.remark-lint.parse",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.remark-lint.parse",
+        "description": ".trunk.plugins.trunk.linters.remark-lint.parse",
+        "peekOfCode": "def main(argv):\n    results = []\n    content_json = sys.stdin.read()\n    content = json.loads(content_json)\n    for file_content in content:\n        messages = file_content.get(\"messages\", [])\n        if messages:\n            for msg in messages:\n                results.append(\n                    to_result_sarif(",
+        "detail": ".trunk.plugins.trunk.linters.remark-lint.parse",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.renovate.parse",
+        "description": ".trunk.plugins.trunk.linters.renovate.parse",
+        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
+        "detail": ".trunk.plugins.trunk.linters.renovate.parse",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.renovate.parse",
+        "description": ".trunk.plugins.trunk.linters.renovate.parse",
+        "peekOfCode": "def main(argv):\n    results = []\n    content = sys.stdin.read()\n    parse_reg = \"(.*WARN:.*could not be parsed)(.*)\"\n    error_section = content.find('\"errors\": [')\n    parse_result = re.fullmatch(parse_reg, content, flags=re.DOTALL)\n    if parse_result:\n        warn_section = parse_result.group(2)\n        json_content = \"{\" + warn_section + \"}\"\n        error_output = json.loads(json_content)",
+        "detail": ".trunk.plugins.trunk.linters.renovate.parse",
+        "documentation": {}
+    },
+    {
+        "label": "NoDocstring",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
+        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "Globe",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
+        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\n# trunk-ignore(ruff/F401)\nimport json\nclass NoDocstring(object):\n    def __init__(self, arg1):",
+        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "get_region",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "peekOfCode": "def get_region(entry, column_offset=0):\n    location = entry[\"location\"]\n    region = {\n        \"startColumn\": location[\"column\"] + column_offset,\n        \"startLine\": location[\"row\"],\n    }\n    if \"end_location\" in entry:\n        end_location = entry[\"end_location\"]\n        region[\"endColumn\"] = end_location[\"column\"] + column_offset\n        region[\"endLine\"] = end_location[\"row\"]",
+        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "peekOfCode": "results = []\ndef get_region(entry, column_offset=0):\n    location = entry[\"location\"]\n    region = {\n        \"startColumn\": location[\"column\"] + column_offset,\n        \"startLine\": location[\"row\"],\n    }\n    if \"end_location\" in entry:\n        end_location = entry[\"end_location\"]\n        region[\"endColumn\"] = end_location[\"column\"] + column_offset",
+        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "sarif",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "peekOfCode": "sarif = {\n    \"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\",\n    \"version\": \"2.1.0\",\n    \"runs\": [{\"results\": results}],\n}\nprint(json.dumps(sarif, indent=2))",
+        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "unvalidated_value",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.semgrep.test_data.request",
+        "description": ".trunk.plugins.trunk.linters.semgrep.test_data.request",
+        "peekOfCode": "def unvalidated_value(request):\n    value = request.GET.get('something')\n    function = globals().get(value)\n    if function:\n        return function(request)",
+        "detail": ".trunk.plugins.trunk.linters.semgrep.test_data.request",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
+        "peekOfCode": "def test():\n  substitution = \"hello %s\" % test\n  my_list = List()\n  try:\n    pass\n  except Exception:\n    raise Exception(\"test\")",
+        "detail": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
+        "peekOfCode": "test = \"world\"\ndef test():\n  substitution = \"hello %s\" % test\n  my_list = List()\n  try:\n    pass\n  except Exception:\n    raise Exception(\"test\")",
+        "detail": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
+        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
+        "detail": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
+        "peekOfCode": "def main(argv):\n    sqlfluff_json = json.load(sys.stdin)\n    results = []\n    for result in sqlfluff_json:\n        filepath = result[\"filepath\"]\n        for violation in result[\"violations\"]:\n            line_number = violation[\"line_no\"]\n            column_number = violation[\"line_pos\"]\n            rule_id = violation[\"code\"]\n            message = violation[\"description\"]",
+        "detail": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.terrascan.sarif_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.terrascan.sarif_to_sarif",
+        "peekOfCode": "def main(argv):\n    input_sarif = json.load(sys.stdin)\n    # strip \"file:\" from the beginning of each value in the 'file' field in the 'location' object in sarif format\n    for run in input_sarif[\"runs\"]:\n        for result in run[\"results\"]:\n            for location in result[\"locations\"]:\n                location[\"physicalLocation\"][\"artifactLocation\"][\"uri\"] = location[\n                    \"physicalLocation\"\n                ][\"artifactLocation\"][\"uri\"][5:]\n    print(json.dumps(input_sarif, indent=2))",
+        "detail": ".trunk.plugins.trunk.linters.terrascan.sarif_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
+        "peekOfCode": "def to_result_sarif(path: str, vuln_id: str, description: str, line: int = 0):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
+        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
+        "peekOfCode": "def main(argv):\n    trivy_json = json.load(sys.stdin)\n    results = []\n    for result in trivy_json.get(\"Results\", []):\n        if \"Misconfigurations\" not in result:\n            continue\n        for vuln in result[\"Misconfigurations\"]:\n            vuln_id = vuln[\"ID\"]\n            description = vuln[\"Description\"]\n            lines = trivy_json.get(\"CauseMetadata\", {}).get(\"Code\", {}).get(\"Lines\", [])",
+        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_to_sarif",
+        "peekOfCode": "def to_result_sarif(path: str, vuln_id: str, description: str):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
+        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_to_sarif",
+        "peekOfCode": "def main(argv):\n    trivy_json = json.load(sys.stdin)\n    results = []\n    for result in trivy_json.get(\"Results\", []):\n        for vuln in result[\"Vulnerabilities\"]:\n            vuln_id = vuln[\"VulnerabilityID\"]\n            description = vuln[\"Description\"]\n            results.append(\n                to_result_sarif(trivy_json[\"ArtifactName\"], vuln_id, description)\n            )",
+        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "aws_access_key_id",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "peekOfCode": "aws_access_key_id = \"AKIAXYZDQCEN4EXAMPLE\"\naws_secret_access_key = \"Tg0pz8Jii8hkLx4+PnUisM8GmKs3a2DK+EXAMPLE\"\n# The below keys are copied from https://github.com/dustin-decker/secretsandstuff\ngithub_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "documentation": {}
+    },
+    {
+        "label": "aws_secret_access_key",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "peekOfCode": "aws_secret_access_key = \"Tg0pz8Jii8hkLx4+PnUisM8GmKs3a2DK+EXAMPLE\"\n# The below keys are copied from https://github.com/dustin-decker/secretsandstuff\ngithub_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "documentation": {}
+    },
+    {
+        "label": "github_secret",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "peekOfCode": "github_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "documentation": {}
+    },
+    {
+        "label": "basic_auth",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "peekOfCode": "basic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH\nNT7eP19eVf4dCreibxUmRUaob5DEoHEk8WrxjKWIYUuLeD6AfcW6oXyRU2Yy8Vrt6SqFl5",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "documentation": {}
+    },
+    {
+        "label": "priv_key",
+        "kind": 5,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "peekOfCode": "priv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH\nNT7eP19eVf4dCreibxUmRUaob5DEoHEk8WrxjKWIYUuLeD6AfcW6oXyRU2Yy8Vrt6SqFl5\nWAi47VMFTkDZYS/eCvG53q9UBHpCj7Qvb0vSkCZXBvBIhlw193F3PX4WvO1IXsMwvQ1D1X",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
+        "documentation": {}
+    },
+    {
+        "label": "to_result_sarif",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
+        "peekOfCode": "def to_result_sarif(path: str, vuln_id: str, description: str):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
+        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
+        "peekOfCode": "def main(argv):\n    results = []\n    for line in sys.stdin.readlines():\n        vuln_json = json.loads(line)\n        path = vuln_json[\"SourceMetadata\"][\"Data\"][\"Filesystem\"][\"file\"]\n        # trufflehog doesn't have vuln IDs\n        # this is the name of the detector that found the error (e.g. AWS, Github, PrivateKey)\n        vuln_id = vuln_json[\"DetectorName\"]\n        # There also isn't description of the error aside from the raw secret, the redacted secret,\n        # and the detector that found it.",
+        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
+        "documentation": {}
+    },
+    {
+        "label": "NoDocstring",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n#whitespace below vvv\n  #A malindented comment\nif __name__ == \"__main__\" :\n      a=4+1",
+        "detail": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "Globe",
+        "kind": 6,
+        "importPath": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n#whitespace below vvv\n  #A malindented comment\nif __name__ == \"__main__\" :\n      a=4+1\n      b=( 2*7 )\n      c = [1,\n           2,",
+        "detail": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "description": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
+        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\n# trunk-ignore(flake8/F401): this will trigger a warning to verify that the config is applied\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
+        "detail": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
         "documentation": {}
     },
     {
