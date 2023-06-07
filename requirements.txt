@@ -42,3 +42,8 @@ vnpy_bitfinex==2021.9.17
 # vnpy_binance==2021.10.27
 vnpy_binance_pro==2023.4.20.2
 backports.zoneinfo; python_version < '3.9'
+
+#Optional
+nbformat==5.9.0
+pyfolio==0.9.2
+QuantStats==0.0.59

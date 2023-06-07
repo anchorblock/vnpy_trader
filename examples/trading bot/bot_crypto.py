@@ -12,6 +12,7 @@ from vnpy_binance_pro import (
     BinanceUsdtGateway,
     BinanceInverseGateway
 )
+import multiprocessing
 
 
 def main():
@@ -30,4 +31,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # pool = multiprocessing.Pool()
+    # pool.apply(main)
+    # pool.close()
+    # pool.join()
+    process = multiprocessing.Process(target=main)
+    process.start()
+    process.join()

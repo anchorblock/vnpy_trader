@@ -1587,6 +1587,22 @@
         "documentation": {}
     },
     {
+        "label": "MainWindow",
+        "importPath": "vnpy.trader.ui",
+        "description": "vnpy.trader.ui",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.ui",
+        "documentation": {}
+    },
+    {
+        "label": "create_qapp",
+        "importPath": "vnpy.trader.ui",
+        "description": "vnpy.trader.ui",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.ui",
+        "documentation": {}
+    },
+    {
         "label": "QtGui",
         "importPath": "vnpy.trader.ui",
         "description": "vnpy.trader.ui",
@@ -2379,6 +2395,14 @@
     },
     {
         "label": "Event",
+        "importPath": "vnpy.event",
+        "description": "vnpy.event",
+        "isExtraImport": true,
+        "detail": "vnpy.event",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
         "importPath": "vnpy.event",
         "description": "vnpy.event",
         "isExtraImport": true,
@@ -3252,6 +3276,14 @@
         "documentation": {}
     },
     {
+        "label": "CtaStrategyApp",
+        "importPath": "vnpy_ctastrategy",
+        "description": "vnpy_ctastrategy",
+        "isExtraImport": true,
+        "detail": "vnpy_ctastrategy",
+        "documentation": {}
+    },
+    {
         "label": "TickData",
         "importPath": "howtrader.trader.object",
         "description": "howtrader.trader.object",
@@ -3380,6 +3412,168 @@
         "documentation": {}
     },
     {
+        "label": "Exchange",
+        "importPath": "vnpy.trader.constant",
+        "description": "vnpy.trader.constant",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.constant",
+        "documentation": {}
+    },
+    {
+        "label": "Interval",
+        "importPath": "vnpy.trader.constant",
+        "description": "vnpy.trader.constant",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.constant",
+        "documentation": {}
+    },
+    {
+        "label": "Exchange",
+        "importPath": "vnpy.trader.constant",
+        "description": "vnpy.trader.constant",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.constant",
+        "documentation": {}
+    },
+    {
+        "label": "Interval",
+        "importPath": "vnpy.trader.constant",
+        "description": "vnpy.trader.constant",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.constant",
+        "documentation": {}
+    },
+    {
+        "label": "vnpy_crypto",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "vnpy_crypto",
+        "description": "vnpy_crypto",
+        "detail": "vnpy_crypto",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "EventEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "MainEngine",
+        "importPath": "vnpy.trader.engine",
+        "description": "vnpy.trader.engine",
+        "isExtraImport": true,
+        "detail": "vnpy.trader.engine",
+        "documentation": {}
+    },
+    {
+        "label": "ManagerEngine",
+        "importPath": "vnpy_datamanager",
+        "description": "vnpy_datamanager",
+        "isExtraImport": true,
+        "detail": "vnpy_datamanager",
+        "documentation": {}
+    },
+    {
+        "label": "ManagerEngine",
+        "importPath": "vnpy_datamanager",
+        "description": "vnpy_datamanager",
+        "isExtraImport": true,
+        "detail": "vnpy_datamanager",
+        "documentation": {}
+    },
+    {
+        "label": "DataManagerApp",
+        "importPath": "vnpy_datamanager",
+        "description": "vnpy_datamanager",
+        "isExtraImport": true,
+        "detail": "vnpy_datamanager",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
         "label": "get_database",
         "importPath": "vnpy.trader.database",
         "description": "vnpy.trader.database",
@@ -3433,54 +3627,6 @@
         "description": "vnpy.chart",
         "isExtraImport": true,
         "detail": "vnpy.chart",
-        "documentation": {}
-    },
-    {
-        "label": "MainEngine",
-        "importPath": "vnpy.trader.engine",
-        "description": "vnpy.trader.engine",
-        "isExtraImport": true,
-        "detail": "vnpy.trader.engine",
-        "documentation": {}
-    },
-    {
-        "label": "MainEngine",
-        "importPath": "vnpy.trader.engine",
-        "description": "vnpy.trader.engine",
-        "isExtraImport": true,
-        "detail": "vnpy.trader.engine",
-        "documentation": {}
-    },
-    {
-        "label": "MainEngine",
-        "importPath": "vnpy.trader.engine",
-        "description": "vnpy.trader.engine",
-        "isExtraImport": true,
-        "detail": "vnpy.trader.engine",
-        "documentation": {}
-    },
-    {
-        "label": "MainEngine",
-        "importPath": "vnpy.trader.engine",
-        "description": "vnpy.trader.engine",
-        "isExtraImport": true,
-        "detail": "vnpy.trader.engine",
-        "documentation": {}
-    },
-    {
-        "label": "MainEngine",
-        "importPath": "vnpy.trader.engine",
-        "description": "vnpy.trader.engine",
-        "isExtraImport": true,
-        "detail": "vnpy.trader.engine",
-        "documentation": {}
-    },
-    {
-        "label": "EventEngine",
-        "importPath": "vnpy.trader.engine",
-        "description": "vnpy.trader.engine",
-        "isExtraImport": true,
-        "detail": "vnpy.trader.engine",
         "documentation": {}
     },
     {
@@ -3676,19 +3822,19 @@
         "documentation": {}
     },
     {
+        "label": "ChartWizardApp",
+        "importPath": "vnpy_chartwizard",
+        "description": "vnpy_chartwizard",
+        "isExtraImport": true,
+        "detail": "vnpy_chartwizard",
+        "documentation": {}
+    },
+    {
         "label": "ExcelRtdApp",
         "importPath": "vnpy_excelrtd",
         "description": "vnpy_excelrtd",
         "isExtraImport": true,
         "detail": "vnpy_excelrtd",
-        "documentation": {}
-    },
-    {
-        "label": "DataManagerApp",
-        "importPath": "vnpy_datamanager",
-        "description": "vnpy_datamanager",
-        "isExtraImport": true,
-        "detail": "vnpy_datamanager",
         "documentation": {}
     },
     {
@@ -3769,6 +3915,30 @@
         "description": "vnpy_ctastrategy.strategies.double_ma_strategy",
         "isExtraImport": true,
         "detail": "vnpy_ctastrategy.strategies.double_ma_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "BinanceSpotGateway",
+        "importPath": "vnpy_binance_pro",
+        "description": "vnpy_binance_pro",
+        "isExtraImport": true,
+        "detail": "vnpy_binance_pro",
+        "documentation": {}
+    },
+    {
+        "label": "BinanceUsdtGateway",
+        "importPath": "vnpy_binance_pro",
+        "description": "vnpy_binance_pro",
+        "isExtraImport": true,
+        "detail": "vnpy_binance_pro",
+        "documentation": {}
+    },
+    {
+        "label": "BinanceInverseGateway",
+        "importPath": "vnpy_binance_pro",
+        "description": "vnpy_binance_pro",
+        "isExtraImport": true,
+        "detail": "vnpy_binance_pro",
         "documentation": {}
     },
     {
@@ -5944,7 +6114,7 @@
         "kind": 6,
         "importPath": "examples.custom strategies.high_frequency_strategy",
         "description": "examples.custom strategies.high_frequency_strategy",
-        "peekOfCode": "class HighFrequencyStrategy(CtaTemplate):\n    \"\"\"\n    网格的高频策略，挂上下买卖单，等待成交，然后通过不断加仓降低均价\n    免责声明: 本策略仅供测试参考，本人不负有任何责任。使用前请熟悉代码。测试其中的bugs, 请清楚里面的功能后在使用。\n    币安邀请链接: https://www.binancezh.pro/cn/futures/ref/51bitquant\n    合约邀请码：51bitquant\n    \"\"\"\n    author = \"51bitquant\"\n    grid_step = 1.0\n    stop_multiplier = 15.0",
+        "peekOfCode": "class HighFrequencyStrategy(CtaTemplate):\n    author = \"51bitquant\"\n    grid_step = 1.0\n    stop_multiplier = 15.0\n    trading_size = 1.0\n    max_pos = 15.0 \n    stop_mins = 15.0  \n    # 变量.\n    avg_price = 0.0\n    parameters = [\"grid_step\", \"stop_multiplier\", \"trading_size\", \"max_pos\", \"stop_mins\"]",
         "detail": "examples.custom strategies.high_frequency_strategy",
         "documentation": {}
     },
@@ -5964,6 +6134,24 @@
         "description": "examples.custom strategies.strategy2",
         "peekOfCode": "class MyStrategy(CtaTemplate):\n    author = 'ornob'\n    fast_window = 3\n    slow_window = 5\n    volume = 0.0001\n    parameters = [\"fast_window\", \"slow_window\"]\n    variables = ['inited', 'trading', 'pos']\n    def __init__(self, cta_engine, strategy_name, vt_symbol, setting):\n        super().__init__(cta_engine, strategy_name, vt_symbol, setting)\n        self.bg = BarGenerator(self.on_bar, interval=Interval.MINUTE)",
         "detail": "examples.custom strategies.strategy2",
+        "documentation": {}
+    },
+    {
+        "label": "ingest_crypto_daily",
+        "kind": 2,
+        "importPath": "examples.ingesting_csvs.ingest_daily_csv",
+        "description": "examples.ingesting_csvs.ingest_daily_csv",
+        "peekOfCode": "def ingest_crypto_daily(path, symbol):\n    df = pd.read_csv(path)\n    a = manager.import_data_from_csv(\n        file_path=path,\n        symbol=symbol,\n        exchange=Exchange.BINANCE,\n        interval=Interval.DAILY,\n        tz_name= 'Asia/Dhaka',\n        datetime_head=df.columns[0],\n        open_head=df.columns[1],",
+        "detail": "examples.ingesting_csvs.ingest_daily_csv",
+        "documentation": {}
+    },
+    {
+        "label": "ingest_crypto_minute",
+        "kind": 2,
+        "importPath": "examples.ingesting_csvs.ingest_minute_csv",
+        "description": "examples.ingesting_csvs.ingest_minute_csv",
+        "peekOfCode": "def ingest_crypto_minute(path, symbol):\n    df = pd.read_csv(path)\n    a = manager.import_data_from_csv(\n        file_path=path,\n        symbol=symbol,\n        exchange=Exchange.BINANCE,\n        interval=Interval.MINUTE,\n        tz_name= 'Asia/Dhaka',\n        datetime_head=df.columns[0],\n        open_head=df.columns[1],",
+        "detail": "examples.ingesting_csvs.ingest_minute_csv",
         "documentation": {}
     },
     {
@@ -6151,7 +6339,7 @@
         "kind": 2,
         "importPath": "examples.trading bot.bot",
         "description": "examples.trading bot.bot",
-        "peekOfCode": "def main():\n    SETTINGS[\"log.file\"] = True\n    qpp = create_qapp()\n    event_engine = EventEngine()\n    main_engine = MainEngine(event_engine)\n    gw = IbGateway(event_engine=event_engine, gateway_name=\"IB\")\n    setting = {\"TWS地址\": \"127.0.0.1\", \"TWS端口\": 7497,\n               \"客户号\": 1, \"交易账户\": \"DU7251579\"}\n    main_engine.add_gateway(IbGateway)\n    cta_engine = main_engine.add_app(CtaStrategyApp)",
+        "peekOfCode": "def main():\n    SETTINGS[\"log.file\"] = True\n    qpp = create_qapp()\n    event_engine = EventEngine()\n    main_engine = MainEngine(event_engine)\n    # gw = IbGateway(event_engine=event_engine, gateway_name=\"IB\")\n    # setting = {\"TWS地址\": \"127.0.0.1\", \"TWS端口\": 7497,\n    #            \"客户号\": 1, \"交易账户\": \"DU7251579\"}\n    main_engine.add_gateway(IbGateway)\n    cta_engine = main_engine.add_app(CtaStrategyApp)",
         "detail": "examples.trading bot.bot",
         "documentation": {}
     },
@@ -6180,6 +6368,15 @@
         "description": "examples.trading bot.bot",
         "peekOfCode": "SETTINGS[\"log.console\"] = True\ndef strat_config(strat_name: str, setting: dict):\n    curr_dir = os.path.dirname(os.path.abspath(__file__))\n    json_dir = '/home/shell007/.vntrader/cta_strategy_setting.json'\n    with open(json_dir) as f:\n        data = json.load(f)\n    with open(json_dir, 'w') as f:\n        data[strat_name] = setting\n        json.dump(data, f, indent=4)\n        print('Config Loaded')",
         "detail": "examples.trading bot.bot",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "examples.trading bot.bot_crypto",
+        "description": "examples.trading bot.bot_crypto",
+        "peekOfCode": "def main():\n    qapp = create_qapp()\n    event_engine = EventEngine()\n    main_engine = MainEngine(event_engine)\n    # main_engine.add_gateway(BinanceSpotGateway)\n     # main_engine.add_gateway(BinanceInverseGateway)\n    main_engine.add_gateway(BinanceUsdtGateway)\n    main_engine.add_app(ChartWizardApp)\n    main_engine.add_app(CtaStrategyApp)\n    main_window = MainWindow(main_engine, event_engine)",
+        "detail": "examples.trading bot.bot_crypto",
         "documentation": {}
     },
     {
