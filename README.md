@@ -1,4 +1,4 @@
-# By Traders, For Traders.
+# By Traders, For Traders
 
 <p align="center">
   <img src ="https://vnpy.oss-cn-shanghai.aliyuncs.com/vnpy-logo.png"/>
@@ -12,36 +12,68 @@
     <img src ="https://img.shields.io/github/license/vnpy/vnpy.svg?color=orange"/>
 </p>
 
-VeighNa is a Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform with 6 years of continuous contributions from the open source community, and currently has many users from domestic and international financial institutions, including: hedge funds, investment banks, futures brokers, university research institutions, proprietary trading companies, etc.
+VeighNa is a Python-based open-source quantitative trading system development framework, officially released in January 2015. It has grown into a full-featured quantitative trading platform with 6 years of continuous contributions from the open-source community. Currently, it has many users from domestic and international financial institutions, including hedge funds, investment banks, futures brokers, university research institutions, proprietary trading companies, etc.
 
-This Repository is a fork of the original VeighNa project. The UI of VnTrader is translated to English and the code is modified to support global exchanges. This fork contains custom strategies and trading bot which are used in global exchanges.
+This Repository is a fork of the original VeighNa project. The UI of VnTrader is translated to English, and the code is modified to support global exchanges and crypto markets. This fork contains custom strategies and trading bots used in global exchanges.
 
+## Installation Steps
 
-## Installation steps
+### Environment preparation
 
-Close this repo, unzip it and run the following command to install it.
+- Supported system versions: Windows 10 or above/Windows Server 2016 or above/Ubuntu 20.04 LTS
+- Supported Python version: Python 3.7 64-bit or higher.
 
-**Windows**
+1. Install Anaconda: Download and install Anaconda from the official website: <https://www.anaconda.com/products/individual>
 
-```
-install.bat
-```
+2. Create a virtual environment: Open a terminal and create a new virtual environment using the following command:
 
-**Ubuntu**
+   ```
+   conda create --name myenv python=3.9
+   ```
 
-```
-. install.sh
-```
+   This will create a new virtual environment named `myenv` with Python 3.9 installed.
 
-**Macos**
+3. Activate the virtual environment: Activate the virtual environment using the following command:
 
-```
-bash install_osx.sh
-```
+   ```
+   conda activate myenv
+   ```
+
+4. Clone this repository: Clone this repository using the following command:
+
+   ```
+   git clone https://github.com/anchorblock/vnpy_trader.git
+   ```
+
+5. Change directory: Change to the cloned repository directory using the following command:
+
+   ```
+   cd vnpy_trader
+   ```
+
+6. Install vnpy
+
+    Windows
+
+        install.bat
+
+    Ubuntu
+
+        . install.sh
+
+    Macos
+
+        bash install_osx.sh
+
+7. After that, run the following command to install the dependent library.
+
+    ```Python
+    pip install -r requirements.txt
+    ```
 
 ## Script Run
 
-In addition to the graphical start-up method based on VeighNa Station, you can also create run.py in any directory and write the following sample code.
+Create `run.py` in any directory and write the following sample code.
 
 ```Python
 from vnpy.event import EventEngine
@@ -56,7 +88,7 @@ def main():
 
     event_engine = EventEngine()
     main_engine = MainEngine(event_engine)
-    
+
     main_engine.add_gateway(CtpGateway)
     main_engine.add_app(CtaStrategyApp)
     main_engine.add_app(CtaBacktesterApp)
@@ -66,14 +98,20 @@ def main():
 
     qapp.exec()
 
-if __name__ == "__main__"。
+if __name__ == "__main__":
     main()
 ```
 
-Open CMD in that directory (hold Shift->click right mouse button->open command window/PowerShell here) and then run the following command to start VeighNa Trader.
+## Demo Examples
 
-    python run.py
-    
+All of the examples are located in the examples folder, including those from the original VeighNa project.
 
+Here are a few examples:
 
-
+| Example                                                                                                                                                   | Description                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| [Ingesting Custom CSVs](https://github.com/anchorblock/vnpy_trader/blob/master/examples/ingesting_csvs/ingest_minute_csv.py)                              | Ingesting custom CSVs into the system             |
+| [Creating Custom Strategy](https://github.com/anchorblock/vnpy_trader/blob/master/examples/custom%20strategies/my_strategy.py)                            | Creating custom strategies                        |
+| [Importing Custom Strategies to Trading Module](https://github.com/anchorblock/vnpy_trader/blob/master/examples/custom%20strategies/import_strategies.sh) | Importing custom strategies to the trading module |
+| [Creating Custom Trading Bot](https://github.com/anchorblock/vnpy_trader/blob/master/examples/trading%20bot/bot_crypto.py)                                | Creating custom trading bots                      |
+| [Backtesting Strategies](https://github.com/anchorblock/vnpy_trader/blob/master/examples/backtesting_on_custom_csvs/backtest_daily.ipynb)                 | Backtesting strategies                            |
