@@ -43,18 +43,18 @@ def main():
     qpp = create_qapp()
     event_engine = EventEngine()
     main_engine = MainEngine(event_engine)
-    gw = IbGateway(event_engine=event_engine, gateway_name="IB")
-    setting = {"TWS地址": "127.0.0.1", "TWS端口": 7497,
-               "客户号": 1, "交易账户": "DU7251579"}
+    # gw = IbGateway(event_engine=event_engine, gateway_name="IB")
+    # setting = {"TWS地址": "127.0.0.1", "TWS端口": 7497,
+    #            "客户号": 1, "交易账户": "DU7251579"}
     main_engine.add_gateway(IbGateway)
     cta_engine = main_engine.add_app(CtaStrategyApp)
     main_engine.write_log("The main engine was created successfully")
     log_engine = main_engine.get_engine("log")
     event_engine.register(EVENT_CTA_LOG, log_engine.process_log_event)
     main_engine.write_log("Register log event listener")
-    main_engine.connect(gateway_name="IB", setting=setting)
+    # main_engine.connect(gateway_name="IB", setting=setting)
     main_engine.write_log("Connect to the CTP interface")
-    sleep(10)
+    # sleep(10)
 
     main_engine.add_app(ChartWizardApp)
 
@@ -80,10 +80,6 @@ def main():
     strat_config("MyStrategy1", strat_setting1)
 
     # Strategy Stuffs
-
-    sleep(10)
-
-    main_engine.write_log("CTA strategy activated")
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()
     qpp.exec()
@@ -93,5 +89,3 @@ if __name__ == "__main__":
     process = multiprocessing.Process(target=main)
     process.start()
     print('Starting')
-    process.close()
-    sys.exit(0)

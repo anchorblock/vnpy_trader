@@ -14,21 +14,13 @@ from decimal import Decimal
 
 
 class HighFrequencyStrategy(CtaTemplate):
-    """
-    网格的高频策略，挂上下买卖单，等待成交，然后通过不断加仓降低均价
 
-    免责声明: 本策略仅供测试参考，本人不负有任何责任。使用前请熟悉代码。测试其中的bugs, 请清楚里面的功能后在使用。
-    币安邀请链接: https://www.binancezh.pro/cn/futures/ref/51bitquant
-    合约邀请码：51bitquant
-    """
     author = "51bitquant"
-
     grid_step = 1.0
     stop_multiplier = 15.0
     trading_size = 1.0
-    max_pos = 15.0  # 最大的持仓数量.
-    stop_mins = 15.0  # 出现亏损是，暂停多长时间.
-
+    max_pos = 15.0 
+    stop_mins = 15.0  
     # 变量.
     avg_price = 0.0
 
