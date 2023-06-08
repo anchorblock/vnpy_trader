@@ -34,7 +34,7 @@ vnpy_webtrader==1.0.5
 vnpy_rpcservice==1.0.4
 vnpy_rqdata==2.10.15.3
 vnpy_udata==2023.3.1
-vnpy_tap==9.3.9
+vnpy_tap==9.3.8
 vnpy_da==1.12.2
 vnpy_sqlite==1.0.1
 vnpy_crypto==0.1.0
@@ -47,3 +47,5 @@ backports.zoneinfo; python_version < '3.9'
 nbformat==5.9.0
 pyfolio==0.9.2
 QuantStats==0.0.59
+pip install git+https://github.com/51bitquant/howtrader.git
+
