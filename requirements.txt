@@ -13,7 +13,7 @@ plotly==5.10.0
 importlib-metadata==4.12.0
 tqdm==4.64.1
 vnpy_spreadtrading==1.1.8
-vnpy_ctastrategy==1.1.5
+vnpy_ctastrategy==1.1.4
 vnpy_ctabacktester==1.1.1
 vnpy_portfoliostrategy==1.0.5
 vnpy_datamanager==1.0.9

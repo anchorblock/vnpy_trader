@@ -2313,6 +2313,15 @@
         "documentation": {}
     },
     {
+        "label": "howtrader",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "howtrader",
+        "description": "howtrader",
+        "detail": "howtrader",
+        "documentation": {}
+    },
+    {
         "label": "vnpy",
         "kind": 6,
         "isExtraImport": true,
@@ -3942,15 +3951,6 @@
         "documentation": {}
     },
     {
-        "label": "howtrader",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "howtrader",
-        "description": "howtrader",
-        "detail": "howtrader",
-        "documentation": {}
-    },
-    {
         "label": "setup",
         "importPath": "setuptools",
         "description": "setuptools",
@@ -4899,7 +4899,7 @@
         "kind": 6,
         "importPath": "build.lib.vnpy.trader.ui.mainwindow",
         "description": "build.lib.vnpy.trader.ui.mainwindow",
-        "peekOfCode": "class MainWindow(QtWidgets.QMainWindow):\n    \"\"\"\n    Main window of the trading platform.\n    \"\"\"\n    def __init__(self, main_engine: MainEngine, event_engine: EventEngine) -> None:\n        \"\"\"\"\"\"\n        super().__init__()\n        self.main_engine: MainEngine = main_engine\n        self.event_engine: EventEngine = event_engine\n        self.window_title: str = f\"VeighNa Trader Community Edition- {vnpy.__version__}   [{TRADER_DIR}]\"",
+        "peekOfCode": "class MainWindow(QtWidgets.QMainWindow):\n    \"\"\"\n    Main window of the trading platform.\n    \"\"\"\n    def __init__(self, main_engine: MainEngine, event_engine: EventEngine) -> None:\n        \"\"\"\"\"\"\n        super().__init__()\n        self.main_engine: MainEngine = main_engine\n        self.event_engine: EventEngine = event_engine\n        self.window_title: str = f\"Trading Bot\"",
         "detail": "build.lib.vnpy.trader.ui.mainwindow",
         "documentation": {}
     },
@@ -5223,7 +5223,7 @@
         "kind": 6,
         "importPath": "build.lib.vnpy.trader.constant",
         "description": "build.lib.vnpy.trader.constant",
-        "peekOfCode": "class Direction(Enum):\n    \"\"\"\n    Direction of order/trade/position.\n    \"\"\"\n    LONG = \"多\"\n    SHORT = \"空\"\n    NET = \"净\"\nclass Offset(Enum):\n    \"\"\"\n    Offset of order/trade.",
+        "peekOfCode": "class Direction(Enum):\n    \"\"\"\n    Direction of order/trade/position.\n    \"\"\"\n    LONG = \"LONG\"\n    SHORT = \"SHORT\"\n    NET = \"NET\"\nclass Offset(Enum):\n    \"\"\"\n    Offset of order/trade.",
         "detail": "build.lib.vnpy.trader.constant",
         "documentation": {}
     },
@@ -5232,7 +5232,7 @@
         "kind": 6,
         "importPath": "build.lib.vnpy.trader.constant",
         "description": "build.lib.vnpy.trader.constant",
-        "peekOfCode": "class Offset(Enum):\n    \"\"\"\n    Offset of order/trade.\n    \"\"\"\n    NONE = \"\"\n    OPEN = \"开\"\n    CLOSE = \"平\"\n    CLOSETODAY = \"平今\"\n    CLOSEYESTERDAY = \"平昨\"\nclass Status(Enum):",
+        "peekOfCode": "class Offset(Enum):\n    \"\"\"\n    Offset of order/trade.\n    \"\"\"\n    NONE = \"\"\n    OPEN = \"OPEN\"\n    CLOSE = \"CLOSE\"\n    CLOSETODAY = \"CLOSETODAY\"\n    CLOSEYESTERDAY = \"CLOSETODAY\"\nclass Status(Enum):",
         "detail": "build.lib.vnpy.trader.constant",
         "documentation": {}
     },
@@ -5241,7 +5241,7 @@
         "kind": 6,
         "importPath": "build.lib.vnpy.trader.constant",
         "description": "build.lib.vnpy.trader.constant",
-        "peekOfCode": "class Status(Enum):\n    \"\"\"\n    Order status.\n    \"\"\"\n    SUBMITTING = \"提交中\"\n    NOTTRADED = \"未成交\"\n    PARTTRADED = \"部分成交\"\n    ALLTRADED = \"全部成交\"\n    CANCELLED = \"已撤销\"\n    REJECTED = \"拒单\"",
+        "peekOfCode": "class Status(Enum):\n    \"\"\"\n    Order status.\n    \"\"\"\n    SUBMITTING = \"SUBMITTING\"\n    NOTTRADED = \"NOTTRADED\"\n    PARTTRADED = \"PARTTRADED\"\n    ALLTRADED = \"ALLTRADED\"\n    CANCELLED = \"CANCELLED\"\n    REJECTED = \"REJECTED\"",
         "detail": "build.lib.vnpy.trader.constant",
         "documentation": {}
     },
@@ -5259,7 +5259,7 @@
         "kind": 6,
         "importPath": "build.lib.vnpy.trader.constant",
         "description": "build.lib.vnpy.trader.constant",
-        "peekOfCode": "class OrderType(Enum):\n    \"\"\"\n    Order type.\n    \"\"\"\n    LIMIT = \"限价\"\n    MARKET = \"市价\"\n    STOP = \"STOP\"\n    FAK = \"FAK\"\n    FOK = \"FOK\"\n    RFQ = \"询价\"",
+        "peekOfCode": "class OrderType(Enum):\n    \"\"\"\n    Order type.\n    \"\"\"\n    LIMIT = \"LIMIT\"\n    MARKET = \"MARKET\"\n    STOP = \"STOP\"\n    FAK = \"FAK\"\n    FOK = \"FOK\"\n    RFQ = \"RFQ\"",
         "detail": "build.lib.vnpy.trader.constant",
         "documentation": {}
     },
@@ -5268,7 +5268,7 @@
         "kind": 6,
         "importPath": "build.lib.vnpy.trader.constant",
         "description": "build.lib.vnpy.trader.constant",
-        "peekOfCode": "class OptionType(Enum):\n    \"\"\"\n    Option type.\n    \"\"\"\n    CALL = \"看涨期权\"\n    PUT = \"看跌期权\"\nclass Exchange(Enum):\n    \"\"\"\n    Exchange.\n    \"\"\"",
+        "peekOfCode": "class OptionType(Enum):\n    \"\"\"\n    Option type.\n    \"\"\"\n    CALL = \"CALL\"\n    PUT = \"PUT\"\nclass Exchange(Enum):\n    \"\"\"\n    Exchange.\n    \"\"\"",
         "detail": "build.lib.vnpy.trader.constant",
         "documentation": {}
     },
