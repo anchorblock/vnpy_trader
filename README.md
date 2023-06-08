@@ -25,7 +25,7 @@ This Repository is a fork of the original VeighNa project. The UI of VnTrader is
 
 1. Install Anaconda: Download and install Anaconda from the official website: <https://www.anaconda.com/products/individual>
 
-2. Create a virtual environment: Open a terminal and create a new virtual environment using the following command:
+2. Create a virtual environment:
 
    ```
    conda create --name myenv python=3.9
@@ -33,13 +33,13 @@ This Repository is a fork of the original VeighNa project. The UI of VnTrader is
 
    This will create a new virtual environment named `myenv` with Python 3.9 installed.
 
-3. Activate the virtual environment: Activate the virtual environment using the following command:
+3. Activate the virtual environment:
 
    ```
    conda activate myenv
    ```
 
-4. Clone this repository: Clone this repository using the following command:
+4. Clone this repository:
 
    ```
    git clone https://github.com/anchorblock/vnpy_trader.git
@@ -65,10 +65,16 @@ This Repository is a fork of the original VeighNa project. The UI of VnTrader is
 
         bash install_osx.sh
 
-7. After that, run the following command to install the dependent library.
+7. After that, run the following command to install the dependent libraries.
 
     ```Python
     pip install -r requirements.txt
+    ```
+
+8. Install Howtrader: Install Howtrader using the following command:
+
+    ```Python
+    pip install git+https://github.com/51bitquant/howtrader.git
     ```
 
 ## Script Run
