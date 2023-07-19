@@ -12,7 +12,6 @@ from vnpy_spreadtrading import SpreadTradingApp
 from vnpy_algotrading import AlgoTradingApp
 from vnpy_chartwizard import ChartWizardApp
 from vnpy.trader.setting import SETTINGS
-from vnpy_ctastrategy.strategies.my_strategy import MyStrategy
 from vnpy_ctastrategy.strategies.atr_rsi_strategy import AtrRsiStrategy
 from vnpy_ctastrategy.strategies.double_ma_strategy import DoubleMaStrategy
 
@@ -25,17 +24,6 @@ import os
 SETTINGS["log.active"] = True
 SETTINGS["log.level"] = INFO
 SETTINGS["log.console"] = True
-
-
-# def strat_config(strat_name: str, setting: dict):
-#     curr_dir = os.path.dirname(os.path.abspath(__file__))
-#     json_dir = '/home/shell007/.vntrader/cta_strategy_setting.json'
-#     with open(json_dir) as f:
-#         data = json.load(f)
-#     with open(json_dir, 'w') as f:
-#         data[strat_name] = setting
-#         json.dump(data, f, indent=4)
-#         print('Config Loaded')
 
 
 def main():
@@ -52,7 +40,7 @@ def main():
 
 
 if __name__ == "__main__":
-    # process = multiprocessing.Process(target=main)
-    # process.start()
-    # print('Starting')
-    main()
+    process = multiprocessing.Process(target=main)
+    process.start()
+    # # print('Starting')
+    # main()
